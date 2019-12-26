@@ -155,3 +155,15 @@ header h2{
     margin: 15px 0 10px 0;
     font-size: 28px;
 }
+
+footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 32px;
+    background-color: #2F4F4F;
+    text-align: end;
+}
+
+footer p{
+    padding: 5px;
+}
