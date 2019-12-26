@@ -1,0 +1,157 @@
+/*Colors*/
+/*
+    Orange: #FF8C00
+    Grey: #808080
+*/
+body {
+    background-color: lightyellow;    
+    font-family: 'Fira Sans', sans-serif;
+    color: #696969;
+    margin: 0;
+    padding: 0;
+}
+
+header {   
+    margin: 0; 
+    padding: 0; 
+    text-align: center;  
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img {
+    width: 32px;
+    height: 32px;
+}
+
+meter{
+    width: 200px;
+    height: 20px;    
+}
+
+header h1{
+    color: #FF8C00;
+}
+
+header h2{
+    color: #808080;
+}
+
+.content-wrap {
+    background-color: white;
+    border-bottom: 3px solid #FF8C00;
+    max-width: 85%;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+}
+
+.content-wrap-summary {
+    max-width: 85%;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.summary-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.summary-item-overview{
+    max-width: 30%;    
+    flex: 1 1 100px;
+    background-color: #808080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.summary-item-overview h2{
+    font-size: 18px;
+    margin: 20px 0 5px 0 ;
+}
+.summary-item-overview p{    
+    margin: 10px 0;
+}
+
+.summary-item-overview a{
+    color: yellow;
+    padding: 0;
+}
+
+.summary-item-projects{
+    flex: 1 1 200px;  
+    padding: 0 10px 10px 10px;      
+}
+
+.project-item{
+    padding: 10px;
+}
+
+.summary-item-projects h3{
+    margin: 0;
+    padding: 0;
+}
+
+.project-item p{
+   font-weight: 500;
+   margin: 15px 0 15px 15px;
+}
+
+.project-duration-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-duration-container span{
+    font-style: italic;
+    margin: 5px 0 0 0;
+    font-weight: 600;
+}
+
+.image-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-title-container h2{
+    margin: 0 0 0 10px;
+}
+
+.image-projecttitle-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.image-projecttitle-container img{
+    width: 64px;    
+    min-height: 48px;
+}
+
+.image-projecttitle-container h3{
+    margin: 0 0 0 10px; 
+}
+
+.job-experience {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.job-experience img{
+    margin: 0 10px 0 0;
+}
+
+.job-experience h2{
+    margin: 15px 0 10px 0;
+    font-size: 28px;
+}
