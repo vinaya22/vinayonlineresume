@@ -162,9 +162,11 @@ footer{
     height: 32px;
     background-color: #2F4F4F;
     text-align: end;
+    align-items: center;
 }
 
-footer p{
-    padding: 5px;
+footer p{    
     color: white;
+    margin: 0;
+    padding: 0;
 }
