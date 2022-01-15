@@ -3,6 +3,11 @@
     Orange: #FF8C00
     Grey: #808080
 */
+
+* {
+    transition: all 1s linear;
+}
+
 body {
     background-color: lightyellow;    
     font-family: 'Fira Sans', sans-serif;
@@ -169,4 +174,9 @@ footer p{
     color: white;
     margin: 0;
     padding: 0;
+}
+
+.project-item p span {
+    font-weight: 700;
+    font-style: italic;
 }
