@@ -145,6 +145,11 @@ meter {
     padding: 10px;
 }
 
+.project-item:hover {
+    outline: 2px solid black;
+    outline-offset: 0.2rem;
+}
+
 .summary-item-projects h3{
     margin: 0;
     padding: 0;
