@@ -235,7 +235,7 @@ footer p{
 @media(max-width: 750px) {
 
     meter {
-        max-width: 10rem;
+        width: 10rem;
     }
 }
 
@@ -246,7 +246,7 @@ footer p{
     }
 
     meter {
-        max-width: 8rem;
+        width: 8rem;
     }
 }
 
@@ -268,6 +268,6 @@ footer p{
     }
 
     meter {
-        max-width: 15rem;
+        width: 20em;
     }
 }
